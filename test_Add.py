@@ -14,3 +14,7 @@ class TestSum(unittest.TestCase):
 	def test_4(self):
 		a,b=map(int,f.readline().strip().split(","))
 		self.assertEqual(Add(a,b),a+b,f"adition must {a+b}")
+	def test_5(self):
+		a,b=map(int,f.readline().strip().split(","))		
+		self.assertEqual(Add(a,b),a+b,f"adition must {a+b}")
+			
